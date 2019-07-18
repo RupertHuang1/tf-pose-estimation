@@ -137,3 +137,12 @@ if __name__ == '__main__':
             break
 
     cv2.destroyAllWindows()
+
+  "username_me": "ruperthuang1",
+  "username_partner": "JayChen-AQ6666",
+  "commit_me": "https://github.com/ruperthuang1/tf-pose-estimation/commit/<thecommitSHA>",
+  "commit_partner": "https://github.com/JayChen-AQ6666/tf-pose-estimation/commit/<thecommitSHA>",
+  "commit_coauthor": "https://github.com/JayChen-AQ6666/tf-pose-estimation/commit/<thecommitSHA>",
+  "screenshot_me": "/path/to/your/screenshot.jpg",
+  "screenshot_partner": "/path/to/partner/screenshot.jpg"
+}
