@@ -111,13 +111,13 @@ if __name__ == '__main__':
             Rightside = 1
             Leftside = 1
 
-            for a,b in human.body_parts.items():
-                if POSE_COCO_BODY_PARTS[a] == "Nose":
-                    Nose = b.y
-                elif POSE_COCO_BODY_PARTS[a] == "RElbow" or POSE_COCO_BODY_PARTS[a] == "RWrist":
-                    Rightside = b.y
-                elif POSE_COCO_BODY_PARTS[a] == "LElbow" or POSE_COCO_BODY_PARTS[a] == "LWrist":
-                    Leftside = b.y
+            for k,v in human.body_parts.items():
+                if POSE_COCO_BODY_PARTS[k] == "Nose":
+                    Nose = v.y
+                elif POSE_COCO_BODY_PARTS[k] == "RElbow" or POSE_COCO_BODY_PARTS[k] == "RWrist":
+                    Rightside = v.y
+                elif POSE_COCO_BODY_PARTS[k] == "LElbow" or POSE_COCO_BODY_PARTS[k] == "LWrist":
+                    Leftside = v.y
 
             if Leftside < Nose or Rightside < Nose:
                 hail_taxi(image)
