@@ -144,5 +144,5 @@ if __name__ == '__main__':
   "commit_partner": "https://github.com/JayChen-AQ6666/tf-pose-estimation/commit/<thecommitSHA>",
   "commit_coauthor": "https://github.com/JayChen-AQ6666/tf-pose-estimation/commit/<thecommitSHA>",
   "screenshot_me": "/path/to/your/screenshot.jpg",
-  "screenshot_partner": "/path/to/partner/screenshot.jpg"
+  "screenshot_partner": "/path/to/Jay/screenshot.jpg"
 }
